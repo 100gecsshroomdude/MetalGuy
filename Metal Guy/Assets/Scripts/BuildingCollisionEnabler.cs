@@ -7,7 +7,5 @@ public class BuildingCollisionEnabler : MonoBehaviour
     // Recursively made 
     void Start()
     {
-        
-    }
     }
 }
