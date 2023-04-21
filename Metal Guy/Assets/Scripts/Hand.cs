@@ -34,7 +34,6 @@ public class Hand : MonoBehaviour {
         }
         else if (trigger <= 0.5f && prevTrigger > 0.5f)
         {
-            print("releasing trigger");
             OnTriggerReleased();
         }
         prevTrigger = trigger;
@@ -42,7 +41,7 @@ public class Hand : MonoBehaviour {
         // Apply force to hand if trigger is pressed
         if (isTriggerPressed)
         {
-            playerRb.AddForce(transform.forward * 10f);
+            playerRb.AddForce(transform.forward * -15f);
         }
     }
 
