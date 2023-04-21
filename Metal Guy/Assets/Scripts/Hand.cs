@@ -42,6 +42,10 @@ public class Hand : MonoBehaviour {
         if (isTriggerPressed)
         {
             playerRb.AddForce(transform.forward * -15f);
+           var coord = this.transform.position - playerRb.transform.position;
+           var U = Vector3.Cross(transform.forward, coord);
+           var D = Vector3.Cross(U, transform.forward);
+           playerRb.AddTorque(U.normalized * D.magnitude * 0.1f);
         }
     }
 
