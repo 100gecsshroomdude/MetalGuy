@@ -6,6 +6,8 @@ public class RightHand : MonoBehaviour {
 
     #region Variables
     [SerializeField] public InputActionReference controllerActionTrigger;
+    [SerializeField] public float force;
+    [SerializeField] public float torque;
     [SerializeField] private Rigidbody playerRb;
     private XRDirectInteractor interactor;
     private float prevTrigger = 0f;
@@ -41,10 +43,10 @@ public class RightHand : MonoBehaviour {
         // Apply force to hand if trigger is pressed
         if (isTriggerPressed)
         {
-           playerRb.AddForce(transform.right * 15f);
+           playerRb.AddForce(transform.right * force);
            var coord = this.transform.position - playerRb.transform.position;
            var U = Vector3.Cross(transform.right, coord);
-           playerRb.AddTorque(-U * 0.2f);
+           playerRb.AddTorque(-U * torque);
         }
     }
 

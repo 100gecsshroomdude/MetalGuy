@@ -2,16 +2,17 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class LeftHand : MonoBehaviour {
+public class FootThrust : MonoBehaviour {
 
     #region Variables
-    [SerializeField] public InputActionReference controllerActionTrigger;
+    [SerializeField] public InputActionReference controllerActiongrip1;
+    [SerializeField] public InputActionReference controllerActiongrip2;
     [SerializeField] public float force;
-    [SerializeField] public float torque;
     [SerializeField] private Rigidbody playerRb;
     private XRDirectInteractor interactor;
-    private float prevTrigger = 0f;
-    
+    private float prevTrigger1 = 0f;
+    private float prevTrigger2 = 0f;
+
     private Rigidbody rb;
     
     private bool isTriggerPressed = false;
@@ -28,25 +29,32 @@ public class LeftHand : MonoBehaviour {
 
     void Update()
     {
-        float trigger = controllerActionTrigger.action.ReadValue<float>();
-        print(trigger + ", " + prevTrigger);
-        if (trigger > 0.5f && prevTrigger <= 0.5f)
+        float trigger1 = controllerActiongrip1.action.ReadValue<float>();
+        float trigger2 = controllerActiongrip1.action.ReadValue<float>();
+        if (trigger1 > 0.5f && prevTrigger1 <= 0.5f)
         {
             OnTriggerPressed();
         }
-        else if (trigger <= 0.5f && prevTrigger > 0.5f)
+        else if (trigger1 <= 0.5f && prevTrigger1 > 0.5f)
         {
             OnTriggerReleased();
         }
-        prevTrigger = trigger;
+        prevTrigger1 = trigger1;
+
+        if (trigger2 > 0.5f && prevTrigger2 <= 0.5f)
+        {
+            OnTriggerPressed();
+        }
+        else if (trigger2 <= 0.5f && prevTrigger2 > 0.5f)
+        {
+            OnTriggerReleased();
+        }
+        prevTrigger2 = trigger2;
 
         // Apply force to hand if trigger is pressed
         if (isTriggerPressed)
         {
-           playerRb.AddForce(transform.right * -force);
-           var coord = this.transform.position - playerRb.transform.position;
-           var U = Vector3.Cross(transform.right, coord);
-           playerRb.AddTorque(U * torque);
+           playerRb.AddForce(transform.up * force);
         }
     }
 
