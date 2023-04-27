@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class Hand : MonoBehaviour {
+public class RightHand : MonoBehaviour {
 
     #region Variables
     [SerializeField] public InputActionReference controllerActionTrigger;
@@ -41,11 +41,10 @@ public class Hand : MonoBehaviour {
         // Apply force to hand if trigger is pressed
         if (isTriggerPressed)
         {
-            playerRb.AddForce(transform.forward * -15f);
+           playerRb.AddForce(transform.right * 15f);
            var coord = this.transform.position - playerRb.transform.position;
-           var U = Vector3.Cross(transform.forward, coord);
-           var D = Vector3.Cross(U, transform.forward);
-           playerRb.AddTorque(U.normalized * D.magnitude * 0.1f);
+           var U = Vector3.Cross(transform.right, coord);
+           playerRb.AddTorque(-U * 0.2f);
         }
     }
 
