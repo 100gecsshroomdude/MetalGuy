@@ -6,6 +6,7 @@ public class Reset : MonoBehaviour
 {
     public GameObject player;
     public Vector3 currentSpawnPoint;
+    public HW1ScriptManager manager;
     [SerializeField] public InputActionReference yvalue;
     [SerializeField] public InputActionReference xvalue;
     // Start is called before the first frame update
@@ -17,12 +18,16 @@ public class Reset : MonoBehaviour
     public void Respawn()
     {
         // Set the position to the spawn point.
-        player.transform.position = currentSpawnPoint;
+        
 
-        // Zero out any left over velocity.
+        
+                // Zero out any left over velocity.
+        player.transform.position = currentSpawnPoint;
         player.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        player.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         player.GetComponent<Rigidbody>().rotation = Quaternion.identity;
+        player.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        manager.resetscore();
+      
     }
     private void Orient()
     {

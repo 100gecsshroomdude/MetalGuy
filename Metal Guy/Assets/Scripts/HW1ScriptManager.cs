@@ -9,10 +9,7 @@ public class HW1ScriptManager : MonoBehaviour {
     public GameObject player;
 
     // The initial spawn point.
-    public Transform initialSpawnTransform;
-
-    // Where the player currently spawns after dying.
-    public Vector3 currentSpawnPoint;
+   
 
     // How many gateways the player has passed through.
     public int currentScore;
@@ -22,33 +19,34 @@ public class HW1ScriptManager : MonoBehaviour {
 
     // The text objs for displaying count (score) and a win message.
     public Text scoreText;
-    public Text winText;
+    public GameObject[] gates;
 
     // Use this for initialization
     void Start () {
         // Initialize the current spawn.
-        currentSpawnPoint = initialSpawnTransform.position;
+      
 
         // Initialize the score.
         currentScore = 0;
 
         // Initialize the text.
-        winText.text = "";
-        SetScoreText();
+        scoreText.text = "";
+    
 
 	}
 
-    // Respawn the player at the latest spawn point.
-    public void Respawn()
+    
+    public void resetscore()
     {
-        // Set the position to the spawn point.
-        player.transform.position = currentSpawnPoint;
-
-        // Zero out any left over velocity.
-        player.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        player.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        currentScore = 0;
+        scoreText.text = "";
+        gates = GameObject.FindGameObjectsWithTag("Gate");
+        foreach (GameObject gate1 in gates)
+        {
+            var referenceScript = gate1.GetComponent<Gateway>();
+            referenceScript.activated = false;
+        }
     }
-
     // Bump the score up by one, and update the GUI appropriately.
     public void ProcessGatewayActivation(Gateway gateway)
     {
@@ -66,6 +64,7 @@ public class HW1ScriptManager : MonoBehaviour {
     void SetScoreText()
     {
         // Update the text field of our 'countText' variable
-        scoreText.text = "Progress: " + currentScore.ToString() + " / " + maxScore.ToString();
+        var maxScore2=maxScore+1;
+        scoreText.text = "Gates passed: " + currentScore.ToString() + "/" + maxScore2.ToString();
     }
 }

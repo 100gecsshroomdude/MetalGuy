@@ -10,11 +10,7 @@ public class Gateway : MonoBehaviour {
 	// Has the player passed through this gateway yet?
 	public bool activated = false;
 
-	// The colored marker object on the gateway arch.
-	public GameObject marker;
 
-	// The material to be used on the marker when the gate is activated.
-	public Material activeMat;
 
     // The spawn point object for the gateway.
     public GameObject spawnPointObject;
@@ -24,11 +20,7 @@ public class Gateway : MonoBehaviour {
 		// Update the state.
 		activated = true;
 
-		// Get the mesh renderer component on the marker.
-		MeshRenderer meshRenderer = marker.GetComponent<MeshRenderer>();
 
-		// Change the material on the marker.
-		meshRenderer.material = activeMat;
 
         // Tell the manager this gateway has been activated.
         manager.ProcessGatewayActivation(this);

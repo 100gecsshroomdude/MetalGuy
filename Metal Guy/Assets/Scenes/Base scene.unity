@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 93047518}
   - component: {fileID: 93047517}
   - component: {fileID: 93047516}
+  - component: {fileID: 93047519}
   m_Layer: 0
   m_Name: Gate (14)
   m_TagString: Gate
@@ -264,6 +265,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93047514}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &93047519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93047514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &103178017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212952064887640, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -314,6 +330,7 @@ GameObject:
   - component: {fileID: 138953830}
   - component: {fileID: 138953829}
   - component: {fileID: 138953828}
+  - component: {fileID: 138953831}
   m_Layer: 0
   m_Name: Finish
   m_TagString: Gate
@@ -400,6 +417,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 138953826}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &138953831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138953826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e1b79b0225a1742a7511367967a57a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
 --- !u!1 &141203619 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950676027695, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -891,6 +921,7 @@ GameObject:
   - component: {fileID: 197600645}
   - component: {fileID: 197600644}
   - component: {fileID: 197600643}
+  - component: {fileID: 197600646}
   m_Layer: 0
   m_Name: Gate (19)
   m_TagString: Gate
@@ -977,6 +1008,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197600641}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &197600646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197600641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &207116940 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951501117976, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -996,6 +1042,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3745c28ede9bdf541bc2f0c5a7b3bfd2, type: 3}
+--- !u!114 &236844700 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4831705549220205751, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+  m_PrefabInstance: {fileID: 1235393969}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &240209970 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951405106669, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -1103,6 +1160,7 @@ GameObject:
   - component: {fileID: 284844131}
   - component: {fileID: 284844130}
   - component: {fileID: 284844129}
+  - component: {fileID: 284844132}
   m_Layer: 0
   m_Name: Gate (10)
   m_TagString: Gate
@@ -1189,6 +1247,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 284844127}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &284844132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284844127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &320539654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951767706444, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -1220,6 +1293,7 @@ GameObject:
   - component: {fileID: 328475607}
   - component: {fileID: 328475606}
   - component: {fileID: 328475605}
+  - component: {fileID: 328475608}
   m_Layer: 0
   m_Name: Gate (17)
   m_TagString: Gate
@@ -1306,6 +1380,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 328475603}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &328475608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328475603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &341156267
 GameObject:
   m_ObjectHideFlags: 0
@@ -1318,6 +1407,7 @@ GameObject:
   - component: {fileID: 341156270}
   - component: {fileID: 341156269}
   - component: {fileID: 341156268}
+  - component: {fileID: 341156272}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Gate
@@ -1404,6 +1494,21 @@ Transform:
   m_Father: {fileID: 1465621263}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 17.897, z: 90}
+--- !u!114 &341156272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341156267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &343018802 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950407523489, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -1549,6 +1654,7 @@ GameObject:
   - component: {fileID: 409111698}
   - component: {fileID: 409111697}
   - component: {fileID: 409111696}
+  - component: {fileID: 409111700}
   m_Layer: 0
   m_Name: Start
   m_TagString: Gate
@@ -1565,7 +1671,7 @@ Transform:
   m_GameObject: {fileID: 409111694}
   m_LocalRotation: {x: 0, y: 0, z: -0, w: -1}
   m_LocalPosition: {x: -6.1, y: -16.02, z: -0.25}
-  m_LocalScale: {x: 10, y: 0.5, z: 10}
+  m_LocalScale: {x: 10, y: 0.4, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1465621263}
@@ -1635,6 +1741,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409111694}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &409111700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409111694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &421311366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 421311366}
   currentSpawnPoint: {x: 0, y: 1.1, z: 0}
+  manager: {fileID: 2013503626}
   yvalue: {fileID: 2352102234659932393, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   xvalue: {fileID: 2113629280215124117, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &436979977 stripped
@@ -1874,6 +1996,7 @@ GameObject:
   - component: {fileID: 560674604}
   - component: {fileID: 560674603}
   - component: {fileID: 560674602}
+  - component: {fileID: 560674605}
   m_Layer: 0
   m_Name: Gate (6)
   m_TagString: Gate
@@ -1960,6 +2083,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560674600}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &560674605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560674600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &578822118 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950676416344, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -2228,6 +2366,7 @@ GameObject:
   - component: {fileID: 690725492}
   - component: {fileID: 690725491}
   - component: {fileID: 690725490}
+  - component: {fileID: 690725493}
   m_Layer: 0
   m_Name: Gate (12)
   m_TagString: Gate
@@ -2314,6 +2453,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690725488}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &690725493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690725488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &704553491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950355358608, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -2345,6 +2499,7 @@ GameObject:
   - component: {fileID: 756972995}
   - component: {fileID: 756972994}
   - component: {fileID: 756972993}
+  - component: {fileID: 756972996}
   m_Layer: 0
   m_Name: Gate (2)
   m_TagString: Gate
@@ -2431,6 +2586,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756972991}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &756972996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756972991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &775122255 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951104207715, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -2507,6 +2677,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 016d566e117d8fd43be08461a2df3027, type: 3}
+--- !u!1 &851538133
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 851538134}
+  m_Layer: 0
+  m_Name: Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &851538134
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851538133}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &895040059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2519,6 +2720,7 @@ GameObject:
   - component: {fileID: 895040063}
   - component: {fileID: 895040062}
   - component: {fileID: 895040061}
+  - component: {fileID: 895040064}
   m_Layer: 0
   m_Name: Gate (4)
   m_TagString: Gate
@@ -2605,6 +2807,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895040059}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &895040064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895040059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &899203349 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950399697187, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -2691,7 +2908,7 @@ Transform:
   m_Children:
   - {fileID: 421311368}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &914084128
 GameObject:
@@ -2705,6 +2922,7 @@ GameObject:
   - component: {fileID: 914084132}
   - component: {fileID: 914084131}
   - component: {fileID: 914084130}
+  - component: {fileID: 914084133}
   m_Layer: 0
   m_Name: Gate (18)
   m_TagString: Gate
@@ -2791,6 +3009,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 914084128}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &914084133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914084128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &918712816 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950954926236, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -2841,6 +3074,7 @@ GameObject:
   - component: {fileID: 926153479}
   - component: {fileID: 926153478}
   - component: {fileID: 926153477}
+  - component: {fileID: 926153480}
   m_Layer: 0
   m_Name: Gate (13)
   m_TagString: Gate
@@ -2927,6 +3161,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926153475}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &926153480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926153475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &929669676 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951109582866, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -2977,6 +3226,7 @@ GameObject:
   - component: {fileID: 951675556}
   - component: {fileID: 951675555}
   - component: {fileID: 951675554}
+  - component: {fileID: 951675557}
   m_Layer: 0
   m_Name: Gate (9)
   m_TagString: Gate
@@ -3063,6 +3313,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951675552}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &951675557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951675552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &960199600 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951107700215, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -3170,6 +3435,7 @@ GameObject:
   - component: {fileID: 1029704769}
   - component: {fileID: 1029704768}
   - component: {fileID: 1029704767}
+  - component: {fileID: 1029704770}
   m_Layer: 0
   m_Name: Gate (22)
   m_TagString: Gate
@@ -3256,6 +3522,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029704765}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1029704770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029704765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1036947002 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950380533309, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -3596,6 +3877,155 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: df5f660a0ad6ab24f8a986c2a33b341f, type: 3}
+--- !u!1001 &1235393969
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451024, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451025, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1514466827}
+    - target: {fileID: 4831705548291451025, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451025, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705548291451028, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -285
+      objectReference: {fileID: 0}
+    - target: {fileID: 4831705549220205748, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 121
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f74ed0e6c09f064ba57fe8875d78fdd, type: 3}
 --- !u!1 &1257448373 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951302552694, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -3646,6 +4076,7 @@ GameObject:
   - component: {fileID: 1266462452}
   - component: {fileID: 1266462451}
   - component: {fileID: 1266462450}
+  - component: {fileID: 1266462453}
   m_Layer: 0
   m_Name: Gate (11)
   m_TagString: Gate
@@ -3732,6 +4163,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266462448}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1266462453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266462448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1271722747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950618882360, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -3763,6 +4209,7 @@ GameObject:
   - component: {fileID: 1291151337}
   - component: {fileID: 1291151336}
   - component: {fileID: 1291151335}
+  - component: {fileID: 1291151338}
   m_Layer: 0
   m_Name: Gate (8)
   m_TagString: Gate
@@ -3849,6 +4296,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291151333}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1291151338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291151333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1291245815 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950459567495, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -3899,6 +4361,7 @@ GameObject:
   - component: {fileID: 1346285190}
   - component: {fileID: 1346285189}
   - component: {fileID: 1346285188}
+  - component: {fileID: 1346285191}
   m_Layer: 0
   m_Name: Gate (21)
   m_TagString: Gate
@@ -3985,6 +4448,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1346285186}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1346285191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346285186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1352061898 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951800344219, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -4130,6 +4608,7 @@ GameObject:
   - component: {fileID: 1391764947}
   - component: {fileID: 1391764946}
   - component: {fileID: 1391764945}
+  - component: {fileID: 1391764948}
   m_Layer: 0
   m_Name: Gate (5)
   m_TagString: Gate
@@ -4216,6 +4695,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391764943}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1391764948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391764943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1402160969 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950050491573, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -4323,6 +4817,7 @@ GameObject:
   - component: {fileID: 1429525066}
   - component: {fileID: 1429525065}
   - component: {fileID: 1429525064}
+  - component: {fileID: 1429525067}
   m_Layer: 0
   m_Name: Gate (3)
   m_TagString: Gate
@@ -4409,6 +4904,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429525062}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1429525067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429525062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1436792683 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950373503653, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -4888,7 +5398,7 @@ Transform:
   - {fileID: 138953827}
   - {fileID: 409111695}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1472679235 stripped
 GameObject:
@@ -5188,6 +5698,7 @@ GameObject:
   - component: {fileID: 1521708818}
   - component: {fileID: 1521708817}
   - component: {fileID: 1521708816}
+  - component: {fileID: 1521708819}
   m_Layer: 0
   m_Name: Gate (1)
   m_TagString: Gate
@@ -5274,6 +5785,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521708814}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1521708819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521708814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1527102993 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950126276912, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -5400,6 +5926,7 @@ GameObject:
   - component: {fileID: 1606957520}
   - component: {fileID: 1606957519}
   - component: {fileID: 1606957518}
+  - component: {fileID: 1606957521}
   m_Layer: 0
   m_Name: Gate (16)
   m_TagString: Gate
@@ -5486,6 +6013,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606957516}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1606957521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606957516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1649433509
 GameObject:
   m_ObjectHideFlags: 0
@@ -5498,6 +6040,7 @@ GameObject:
   - component: {fileID: 1649433513}
   - component: {fileID: 1649433512}
   - component: {fileID: 1649433511}
+  - component: {fileID: 1649433514}
   m_Layer: 0
   m_Name: Gate (7)
   m_TagString: Gate
@@ -5584,6 +6127,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649433509}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1649433514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649433509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1656781271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212952051509638, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -5805,6 +6363,7 @@ GameObject:
   - component: {fileID: 1838281885}
   - component: {fileID: 1838281884}
   - component: {fileID: 1838281883}
+  - component: {fileID: 1838281886}
   m_Layer: 0
   m_Name: Gate (15)
   m_TagString: Gate
@@ -5891,6 +6450,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838281881}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1838281886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838281881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1854189608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951758798194, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -5979,6 +6553,7 @@ GameObject:
   - component: {fileID: 1891872281}
   - component: {fileID: 1891872280}
   - component: {fileID: 1891872279}
+  - component: {fileID: 1891872282}
   m_Layer: 0
   m_Name: Gate (25)
   m_TagString: Gate
@@ -6065,6 +6640,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1891872277}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1891872282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891872277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1892256256 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950803729968, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -6234,6 +6824,7 @@ GameObject:
   - component: {fileID: 1964454137}
   - component: {fileID: 1964454136}
   - component: {fileID: 1964454135}
+  - component: {fileID: 1964454138}
   m_Layer: 0
   m_Name: Gate (20)
   m_TagString: Gate
@@ -6320,6 +6911,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964454133}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1964454138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964454133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &1983116245 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212950462577123, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -6370,6 +6976,7 @@ GameObject:
   - component: {fileID: 2000760295}
   - component: {fileID: 2000760294}
   - component: {fileID: 2000760293}
+  - component: {fileID: 2000760296}
   m_Layer: 0
   m_Name: Gate (23)
   m_TagString: Gate
@@ -6456,6 +7063,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000760291}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2000760296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000760291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1001 &2009368885
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6533,6 +7155,55 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 3745c28ede9bdf541bc2f0c5a7b3bfd2, type: 3}
+--- !u!1 &2013503625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013503627}
+  - component: {fileID: 2013503626}
+  m_Layer: 0
+  m_Name: Scriptmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2013503626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013503625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80279de557fae2458081f6ac24e8795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 421311366}
+  currentScore: 0
+  maxScore: 27
+  scoreText: {fileID: 236844700}
+  gates: []
+--- !u!4 &2013503627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013503625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.695637, y: 0.8537373, z: 22.968176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2026338188 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951065495574, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}
@@ -6716,6 +7387,7 @@ GameObject:
   - component: {fileID: 2076956908}
   - component: {fileID: 2076956907}
   - component: {fileID: 2076956906}
+  - component: {fileID: 2076956909}
   m_Layer: 0
   m_Name: Gate (24)
   m_TagString: Gate
@@ -6802,6 +7474,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076956904}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2076956909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076956904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f49a7941905b5b44a24a0034a625a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2013503626}
+  activated: 0
+  spawnPointObject: {fileID: 0}
 --- !u!1 &2088856760 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5849212951570586626, guid: b814b5133e6ce9c47964b1983b610fb2, type: 3}

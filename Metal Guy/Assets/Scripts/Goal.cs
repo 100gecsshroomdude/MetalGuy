@@ -13,7 +13,7 @@ public class Goal : MonoBehaviour
         {
             if (manager.currentScore == manager.maxScore)
             {
-                manager.winText.text = "You Win!";
+                manager.scoreText.text = "You Win!";
             }
         }
     }
